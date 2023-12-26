@@ -1,0 +1,70 @@
+.para{
+    display: inline-block;
+    margin-right: 20%;
+    transition-property:all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+}
+.para:hover{
+    text-decoration: underline;
+    font-size: larger;
+    background-color: aqua;
+}
+#div1{
+    background-color: rgba(150,175,225,0.5);
+    display:flex;
+    width: 100%;
+    flex-direction: row;
+    align-content: space-around;
+}
+#amazon{
+    font-size: large;
+    text-decoration: none;
+    background-color: aqua;
+    color: darkgreen;
+}
+#amazon:hover{
+    text-decoration:underline;
+    background-color: aliceblue;
+    color: red;
+}
+.divs{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    border: 5px solid black;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+#box1{
+    background-color: rgba(255,0,0,0.5) ;
+    transition: all 2s ease-in 1ms;
+}
+#box2{
+    background-color: rgba(0,255,0,1);
+    transition: all 2s ease-in 0ms;
+}
+#box3{
+    background-color: rgba(0,0,255,0.5);
+    transition: all 2s ease-in 0ms;
+}
+#box1:hover{
+    transform: rotate(360deg);
+    
+}
+#box2:hover{
+    transform: scale(2);
+}
+#box3:hover{
+    transform: scale(2);
+}
+.divv{
+    margin: auto;
+    text-align: center;
+    background-color: rgba(100,155,255,0.5);
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+}
